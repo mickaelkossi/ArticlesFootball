@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    width: 80%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+}
+
+.filtres{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 50px;
+}
+
+button{
+    height: 70px;
+    width: 200px;
+    position: relative;
+    top: 20px;
+}
+
+.article{
+    height: 400px;
+    width: 280px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.produits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 900px;
+    width: 1100px;
+    column-gap: 130px;
+    row-gap: 80px;
+    padding: 30px;
+}
+
+.produits img{
+    height: 200px;
+    width: 200px;
+}
+
+.produits h2{
+    text-align: center;
+}
+
+.produits p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.produits div{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
